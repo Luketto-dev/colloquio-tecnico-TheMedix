@@ -1,3 +1,7 @@
+/*
+da implementare il passaggio dei dati al server e il salvataggio dei dati a db
+*/
+
 let button = document.getElementById('button-submit')
 let csvFile= document.getElementById('csv-file')
 
