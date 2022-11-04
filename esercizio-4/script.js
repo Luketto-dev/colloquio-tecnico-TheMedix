@@ -26,15 +26,20 @@ let users = [
 ]
 
 
-
+//funzione che mi ritorna un array con solo i nomi dei soggetti
 function usersName(){
+    //inizializzo array vuoto
     let names = []
+    //ciclo sull array originale
     for (let i = 0; i < users.length; i++) {
+        // salvo i singoli utenti in una variabile
         const user = users[i]
+        // pusho il nome dei singoli utenti all interno del nuovo array
         names.push(user.name)
         
     }
 
+    //ritorno il nuovo array
     return names
 }
 
@@ -42,8 +47,9 @@ function usersName(){
 
 console.log(usersName())
 
-
+// funzione che mi torna la media delle età di tutti gli utenti
 function usersAvaregeYears(){
+    
     let years = []
     let sumYears= 0
     let avaregeYears = 0
